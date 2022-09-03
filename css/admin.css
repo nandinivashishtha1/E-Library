@@ -1,0 +1,43 @@
+*{
+margin:0;
+padding:0;
+}
+
+.welcome{
+    background: rgba(0,0,0, 0.2)url('../img/bg5.jpg'); 
+    background-size: cover;
+    background-blend-mode:darken;
+    height:150px;
+    color: palevioletred;
+    text-align: center;
+    justify-content:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+}
+
+#we{
+font-size:4em;
+margin-top:20px;
+}
+
+.choose{
+margin-top:90px;
+}
+
+
+.one{
+
+}
+
+
+.two{
+margin-top:150px;
+}
+
+.three{
+margin-top:250px;
+}
+
+.four{
+margin-top:350px;
+}

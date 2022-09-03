@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=na, initial-scale=1.0">
+    <title>E-library Management</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+    <nav class="welcome">
+    <div id="wel">
+    Welcome! to the control
+    </div>
+    </nav>
+
+<section class="firstSec">
+    <div class="choose">
+    <h2>
+        Choose any of the function you want to do!
+    </h2>
+    <ul class="list">
+        <li>Add Book Info</li>
+        <a href="#book_info">Click here</a>
+        <li>Delete Book Info</li>
+        <a href="#Delete_book_info">Click here</a>
+        <li>Display the book Info</li>
+        <a href="#Display_book_info">Click here</a>
+        <li>Count the number of books</li>
+        <a href="Count">Click here</a>
+    </ul>
+    </div>
+</section>
+
+    <section class="one">
+<div id="book_info">
+<form action="addbook.php" method="post">
+<input type="text" placeholder="Enter Book Name:" name="book_name"><br><br>
+<input type="text" placeholder="Enter Author Name:" name="author_name"><br><br>
+<input type="number" placeholder="Enter Pages" name="pages"><br><br>
+<input type="number" placeholder="Enter Price" name="price"><br><br>
+<input type="number" placeholder="Enter Unique Book Number" name="book_no"><br><br>
+<input type="text" placeholder="Enter no of copies" name="copies"><br><br>
+<input type="submit" value="Add">
+</form>
+</div>
+</section>
+
+<section class="two">
+<div id="#Delete_book_info">
+    <form action="" method="post" id="form">
+    <input type="text" placeholder="Enter Book Name:"><br><br>
+    <input type="text" placeholder="Enter Author Name:"><br><br>
+    <input type="number" placeholder="Enter Unique Book Number"><br><br>
+    <input type="text" placeholder="Enter no of copies"><br><br>
+    <input type="button" value="Delete">
+    </form>
+</div>
+</section>
+
+<section class="three">
+<div id="#Display_book_info">
+    <form action="" method="post" id="form">
+    <input type="number" placeholder="Enter Unique Book Number"><br><br>
+    <input type="button" value="Submit">
+    </form>
+</div>
+</section>
+
+
+<section class="four">
+<div id="#Count">
+    <input type="button" value="Count">
+    </form>
+</div>
+</section>
+
+
+
+</body>
+</html>
